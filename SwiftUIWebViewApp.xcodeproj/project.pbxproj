@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B28FB02E2ABE04C70011E864 /* SwiftUIWebViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB02D2ABE04C70011E864 /* SwiftUIWebViewAppApp.swift */; };
+		B28FB02E2ABE04C70011E864 /* SwiftUIWebViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB02D2ABE04C70011E864 /* SwiftUIWebViewApp.swift */; };
 		B28FB0302ABE04C70011E864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB02F2ABE04C70011E864 /* ContentView.swift */; };
 		B28FB0322ABE04CE0011E864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28FB0312ABE04CE0011E864 /* Assets.xcassets */; };
 		B28FB0352ABE04CE0011E864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28FB0342ABE04CE0011E864 /* Preview Assets.xcassets */; };
+		B28FB03C2ABE04E60011E864 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28FB03B2ABE04E60011E864 /* SwiftUIWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B28FB02A2ABE04C70011E864 /* SwiftUIWebViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIWebViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B28FB02D2ABE04C70011E864 /* SwiftUIWebViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebViewAppApp.swift; sourceTree = "<group>"; };
+		B28FB02D2ABE04C70011E864 /* SwiftUIWebViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebViewApp.swift; sourceTree = "<group>"; };
 		B28FB02F2ABE04C70011E864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B28FB0312ABE04CE0011E864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28FB0342ABE04CE0011E864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B28FB03B2ABE04E60011E864 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		B28FB02C2ABE04C70011E864 /* SwiftUIWebViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				B28FB02D2ABE04C70011E864 /* SwiftUIWebViewAppApp.swift */,
+				B28FB02D2ABE04C70011E864 /* SwiftUIWebViewApp.swift */,
 				B28FB02F2ABE04C70011E864 /* ContentView.swift */,
+				B28FB03B2ABE04E60011E864 /* SwiftUIWebView.swift */,
 				B28FB0312ABE04CE0011E864 /* Assets.xcassets */,
 				B28FB0332ABE04CE0011E864 /* Preview Content */,
 			);
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B28FB0302ABE04C70011E864 /* ContentView.swift in Sources */,
-				B28FB02E2ABE04C70011E864 /* SwiftUIWebViewAppApp.swift in Sources */,
+				B28FB03C2ABE04E60011E864 /* SwiftUIWebView.swift in Sources */,
+				B28FB02E2ABE04C70011E864 /* SwiftUIWebViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

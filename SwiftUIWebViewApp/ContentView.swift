@@ -2,20 +2,32 @@
 //  ContentView.swift
 //  SwiftUIWebViewApp
 //
-//  Created by little-ac on 2023-09-22.
+//  Created by Salvatore Palazzo on 2023-09-22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var showingWebView = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                ZStack {
+                    Button(action: {
+                        self.showingWebView.toggle()
+                    }, label: {
+                        Text("Open WebView")
+                    })
+
+                    if showingWebView {
+                        // show webview
+                        WebView(url: URL(string: "https://www.apple.com")!)
+                    }
+                }
+            }
+            .navigationTitle("WebView")
         }
-        .padding()
     }
 }
 
@@ -24,3 +36,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
